@@ -1,5 +1,15 @@
 .header {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 20px;
+  height: 5px;
+  width: 100%;
+  background-color: firebrick;
+  text-align: left;
+  padding: 30px;
+}
+
+.login {
+  height: 0px;
+  width: 500px;
+  color: white;
+  text-align: right;
+  padding: 0px;
 }
