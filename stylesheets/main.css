@@ -1,15 +1,65 @@
 .header {
   height: 5px;
-  width: 100%;
+  color: white;
+  /* width: 100%; */
   background-color: firebrick;
-  text-align: left;
+  /* text-align: left; */
   padding: 30px;
+  display: flex;
+  justify-content: space-between;
 }
 
-.login {
-  height: 0px;
-  width: 500px;
-  color: white;
-  text-align: right;
-  padding: 0px;
+h4 {
+  font-size: 12px;
+  text-decoration: underline;
 }
+
+.links {
+  background-color: #494949;
+  height: 5px;
+  padding: 15px;
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+
+}
+.links h4 {
+  margin: 0 10px;
+}
+
+.bodyleft {
+  float: left;
+}
+
+h5 {
+  text-align: justify;
+}
+
+.bodyright {
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  clear: both;
+  background-color: #494949;
+  height: 90px;
+  padding: 5px;
+  color: white;
+  /* display: flex; */
+  /* justify-content: flex-end; */
+}
+
+/* whenever you float, left is the default
+always float left
+create a div for the images on the right, and float
+ need two containers(divs) for each section
+ of the page
+ might need to float both left
+
+ with the container for the images,
+ I'll a need a display: flex and a property of flex-direction: column
+
+ for bottom section will need it's own container, i'll need a clear property and both as value
+  clear: both (to stop the bottom portion from floating)*/
